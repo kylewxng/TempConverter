@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    overflow:hidden;
+    font-family:Roboto;
+}
+#input-container {
+    width:30%;
+    height:100vh;
+    position:absolute;
+    top:0;
+    margin: 0 10%;
+    text-align:left;
+    color: #247676;
+}
+h1 {
+    margin: 5rem 0 5rem;
+}
+#degree, #dropdown {
+    height:1.8rem;
+    width:20rem;
+    padding:4px;
+}
+input[type="number"], option, select{
+    font-size: 16px;
+}
+#convert {
+    padding: 2px 4px;
+    background-color: #247676;
+    border-radius: 25px;
+    width: 8rem;
+    height:2.5rem;
+    border:none;
+    color:white;
+    font-size:15px;
+    position:relative;
+    margin: 2rem 6rem;
+    cursor:pointer;
+    transition: box-shadow 0.2s ease;
+}
+#convert:hover {
+    box-shadow: 0px 0px 10px #247676;
+}
+#result-container {
+    width:50%;
+    height:100vh;
+    position:absolute;
+    right:0;
+    top:0;
+    background-color:#247676;
+}
+#result {
+    font-family: monospace;
+    font-size:5rem;
+    padding:0;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    height:80%;
+}
+.container {
+    margin:2rem 0 5rem;
+}
